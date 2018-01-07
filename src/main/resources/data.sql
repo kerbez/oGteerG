@@ -1,1 +1,1 @@
-INSERT INTO words (word) VALUES ('Hello world');
+INSERT INTO words (word) VALUES ('Hello World!');
