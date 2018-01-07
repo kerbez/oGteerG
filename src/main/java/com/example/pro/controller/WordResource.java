@@ -1,4 +1,4 @@
-package com.example.pro.resource;
+package com.example.pro.controller;
 
 import com.example.pro.mapper.WordMapper;
 import com.example.pro.model.Word;
@@ -22,12 +22,12 @@ public class WordResource {
     public List<Word> getAll(){
         return wordMapper.findAll();
     }
-
-    /*@GetMapping("/update")
+/*
+    @GetMapping("/update")
     private List<Word> update() {
 
         Word word = new Word();
-        word.setWord("Youtube");
+        word.setWord("");
 
         wordMapper.insert(word);
 
